@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 14vh;
+    display: flex;
+    color: white;
+    background-color: #12203C;
+}
+.logo{
+    height: 8vh;
+    margin-left: 2vw;
+}
+.top_search{
+    width: 30vw;
+    height: 6vh;
+    position: relative;
+    top: 2vh;
+    margin-left: 2vw;
+    border-radius: 0.2em;
+    border: 0;
+}
+.free_quotes{
+    background: lime;
+    margin-left: 20vw;
+    position: relative;
+    top: 2vh;
+    height: 5vh;
+    padding: 1vh;
+    border: 0;
+    border-radius: 0.2em;
+}
+.how{
+    position: relative;
+    top: 2vh;
+    margin-left: 2vw;
+    padding: 1vh;
+}
+.login{
+    position: relative;
+    top: 2vh;
+    margin-left: 2vw;
+    padding: 1vh;
+}
+
+.sub_nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 2vh;
+    background-color: rgb(209, 202, 202);
+}
+.all_sub_img{
+    width: 3vw;
+    
+}
+.join_community{
+    background-color: lime;
+    border: 0;
+    border-radius: 0.3em;
+}
+
+
+
+
+.trending_house{
+    margin-left: 2vw;
+    padding: 2vh 0;
+    font-size: 4vh;
+}
+.house_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 2vw;
+}
+.houses_img{
+    width: 22vw;
+    height: 30vh;
+}
+.land_area{
+    width: 22vw;
+    border: 0;
+    background-color: #12203C;
+    border-radius: 0.2em;
+    height: 5vh;
+}
